@@ -26,7 +26,7 @@ form = left.form("template_form")
 student = form.text_input("Student name")
 course = form.selectbox(
     "Choose course",
-    ["Machine learning Engineer", "Data Scientist"],
+    ["Machine learning Engineer", "Data Scientist","DevOps"],
     index=0,
 )
 grade = form.slider("Grade", 1, 100, 60)
